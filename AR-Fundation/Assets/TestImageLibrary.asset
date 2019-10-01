@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: TestImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4678006031391082522
+  m_GuidHigh: 6642538737223164081
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4922173907857125228
+      m_GuidHigh: 2850203346115763378
+    m_SerializedTextureGuid:
+      m_GuidLow: 118401736808312639
+      m_GuidHigh: 6006155365430262217
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: IMG_20190201_160745348
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4931790845703839188
+      m_GuidHigh: 18277408940658523799
+    m_SerializedTextureGuid:
+      m_GuidLow: 16376298171060087171
+      m_GuidHigh: 17579493097170871498
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Astronaut_scaled
+    m_Texture: {fileID: 0}
