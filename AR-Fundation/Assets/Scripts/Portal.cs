@@ -10,7 +10,10 @@ public class Portal : MonoBehaviour
 
     void Start()
     {
-        
+        foreach (var mat in materials)
+        {
+            mat.SetInt("stest", (int)CompareFunction.Equal);
+        }
     }
 
     // Update is called once per frame
