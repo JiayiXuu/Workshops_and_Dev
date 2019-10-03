@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
+
 public class Portal : MonoBehaviour
 {
+    public float z_tran;
     public Material[] materials;
     // Start is called before the first frame update
 
@@ -24,19 +26,19 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerStay(Collider collider)
     {
-        if (collider.name!= "Main Camera")
+        if (collider.tag != "MainCamera")
         {
             return;
         }
 
         //outside
-        if (transform.position.z > collider.transform.position.z)
+        if (transform.position.z >= (collider.transform.position.z + z_tran))
         {
             foreach (var mat in materials)
             {
                 mat.SetInt("stest", (int)CompareFunction.Equal);
             }
-        } else
+        }else
         {
             foreach (var mat in materials)
             {
